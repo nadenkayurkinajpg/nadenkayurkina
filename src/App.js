@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
-import Example1 from './components/Example1';
+import Body from './components/Body';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import './App.sass';
 //styles
 import './App.scss';
 import './App.less';
@@ -9,8 +12,14 @@ import './App.styl';
 class App extends Component {
   render() {
     return (
-      <div>
-        <Example1/>
+      <div
+      className="App"
+      style={{
+        backgroundColor: 'yellow',
+      }}>
+        <Header/>
+        <Body/>
+        <Footer/>
       </div>
     );
   }
