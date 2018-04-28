@@ -5,8 +5,9 @@ class Header extends Component {
     return (
       <div
         style={{
-        backgroundColor: 'red',
-      }}>
+          backgroundColor: 'red',
+          height: '100px',
+        }}>
         'Header';
       </div>
     );

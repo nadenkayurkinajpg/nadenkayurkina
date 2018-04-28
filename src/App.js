@@ -13,14 +13,24 @@ class App extends Component {
   render() {
     return (
       <div
-      className="App"
-      style={{
-        backgroundColor: 'yellow',
-      }}>
-        <Header/>
-        <Body/>
+        className="App"
+        style={{
+          backgroundColor: 'yellow',
+          flexDirection: 'column',
+          display: 'flex',
+          justifyContent: 'space-between',
+          maxWidth: '1300px',
+          margin: 'auto',
+        }
+        }>
+        <div>
+          <Header/>
+          <Body/>
+        </div>
+       <div>
         <Footer/>
-      </div>
+       </div>
+       </div>
     );
   }
 }

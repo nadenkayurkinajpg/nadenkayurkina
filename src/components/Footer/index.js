@@ -6,6 +6,7 @@ class Footer extends Component {
       <div
         style={{
         backgroundColor: 'orange',
+          height: '50px',
       }}
       >
         'Footer'
